@@ -1,0 +1,15 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "echoer.js",
+  "scripts": {
+    "test": "node echoer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "facebook-chat-api": "^1.6.0",
+    "surge": "^0.20.1"
+  }
+}
