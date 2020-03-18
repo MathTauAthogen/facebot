@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "facebook-chat-api": "^1.7.0",
     "surge": "^0.21.3"
   }

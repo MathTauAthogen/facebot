@@ -1,7 +1,8 @@
 const login = require("facebook-chat-api");
+require('dotenv').config()
 var norepeat=false
 var count=0
-login({email: "", password: ""}, (err, api) => {
+login({email: process.env.ACCOUNT, password: process.env.PASSWORD}, (err, api) => {
     if(err) return console.error(err);
     var date = new Date(Date.now())
     if(date.getHours()==9){
